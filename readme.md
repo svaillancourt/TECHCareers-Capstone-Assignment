@@ -1,6 +1,6 @@
 ![banner](https://github.com/KaranPandher/Doge-Media-2.0/blob/master/src/img/banner.png)
 
-Group Name: Doge-Media
+Group Name: Focused-Delivery
 
 Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
 
@@ -8,7 +8,7 @@ GitHub: https://github.com/svaillancourt/TECHCareers-Capstone-Assignment
 
 Trello: https://trello.com/b/DlQEtNw7/store
 
-Video Conference: https://meet.jit.si/teamworkmakethedreamwork2
+Video Conference: Discord
 
 Doc file: 
 
