@@ -1,5 +1,3 @@
-![banner](https://github.com/KaranPandher/Doge-Media-2.0/blob/master/src/img/banner.png)
-
 Group Name: Focused-Delivery
 
 Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
