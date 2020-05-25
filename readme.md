@@ -4,13 +4,13 @@ Group Name: Doge-Media
 
 Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
 
-GitHub: https://github.com/KaranPandher/Doge-Media-2.0.git
+GitHub: https://github.com/svaillancourt/TECHCareers-Capstone-Assignment 
 
-Trello: https://trello.com/b/fit2MInQ/doge-social-media-project
+Trello: https://trello.com/b/DlQEtNw7/store
 
-Video Conference: https://meet.jit.si/teamworkmakethedreamwork
+Video Conference: https://meet.jit.si/teamworkmakethedreamwork2
 
-Doc file: https://docs.google.com/document/d/1CybwT4prfElu970pLK0zEmvQT7yxaMu9/
+Doc file: 
 
 Installation Guide:
     
