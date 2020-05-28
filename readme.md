@@ -2,6 +2,8 @@
 
 Group Name: Delivery-Focused
 
+Project Title: Booze-pedia.com  (Working Title)
+
 Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
 
 GitHub: https://github.com/svaillancourt/TECHCareers-Capstone-Assignment 
@@ -10,7 +12,7 @@ Trello: https://trello.com/b/MdkAHVEd/delivery-focused
 
 Video Conference: Discord
 
-Google Drive: 
+Google Drive: https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing
 
 Installation Guide:
     
@@ -20,21 +22,29 @@ Installation Guide:
     npm install react-router-dom
     npm install @types/react-router-dom
 
-
 USER MANUAL: 
 
-    NewsFeed Page: 
+    Page Directory
+
+    Homepage:
         Counter can be used to vote on each post. 
         Each post is linked to the users page. 
         Bark can be used to post a new post.
 
-    Login/UserName Page: 
+    Products:
+
+        Database of Beers (Domestic, Import, Canadian Local Brews, ) & Liquor (Gin, Vodka, Rum, Rye,Liquer, Tequila, (Whisky, Brandy, Cognac), )& Wine (White, Rose, Red, Spirits) (Coolers, Sparkling )
+
+    Login (UserName/Password):
         User can login and register.
 
-    Users Page:
-        Show cases of different users. 
+    Cart:
+        Visiual representation of the content of your cart before checkout.
 
-    Broken Link:
+    Checkout:
+        processing the payment of your selected content.
+
+    Broken Link 404:
         Any link that is not indexed goes to a 404 error page.
         
 
