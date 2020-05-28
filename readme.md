@@ -24,6 +24,7 @@ Video Conference: Discord
 #### Page Directory
 
 #### Homepage:
+
 > Counter can be used to vote on each post.  
 > Each post is linked to the users page. 
 > Bark can be used to post a new post.
@@ -33,12 +34,15 @@ Video Conference: Discord
 > Database of Beers (Domestic, Import, Canadian Local Brews) & Liquor (Gin, Vodka, Rum, Rye, Liquer, Tequila, (Whisky, Brandy, Cognac) & Wine (White, Rose, Red) Spirits (Coolers, Sparkling)
 
 #### Login (UserName/Password):
+
 > User can login and register.
 
 #### Cart:
+
 > Visiual representation of the content of your cart before checkout.
 
 #### Checkout:
+
 > processing the payment of your selected content.
 
 #### Broken Link 404:
@@ -57,18 +61,19 @@ Video Conference: Discord
 
 ### Your project must fulfill the following coding best practices criteria:
 
-Break down all functionality into reusable components
-Project must be error free
-Project must be warning free
-Demonstrate use of project management skills (group meetings, use of Trello is required)
-Demonstrate concise and meaningful use of commenting
-Demonstrate concise and meaningful commit messages and active use of GitHub for version control as well as collaboration from multiple users
-Create a functionality document (intention of each page, explanation of features, think of it as a design and operating manual)
-Main GitHub page should be set up with a proper project name, project banner, and basic installation instructions (assume the user has no idea on how to run the application) DONE
-Example: https://github.com/tensorflow/tensorflow
+> - [ ] Break down all functionality into reusable components
+> - [ ] Project must be error free
+> - [ ] Project must be warning free
+> - [ ] Demonstrate use of project management skills (group meetings, use of Trello is required)
+> - [ ] Demonstrate concise and meaningful use of commenting
+> - [ ] Demonstrate concise and meaningful commit messages and active use of GitHub for version control as well as collaboration from multiple users
+> - [ ] Create a functionality document (intention of each page, explanation of features, think of it as a design and operating manual)
+> - [ ] Main GitHub page should be set up with a proper project name, project banner, and basic installation instructions (assume the user has no > - [ ] idea on how to run the application) DONE
+> - [ ] Example: https://github.com/tensorflow/tensorflow
 
 ### Your project must fulfill the following design criteria:
-Demonstrates CARP design principles
-Demonstrates knowledge of color theory/correct colors are chosen
-No in-line styles
-Avoids Divs if developing custom content (semantic-ui-react will use divs, this is acceptable)
+
+> - [ ] Demonstrates CARP design principles
+> - [ ] Demonstrates knowledge of color theory/correct colors are chosen
+> - [ ] No in-line styles
+> - [ ] Avoids Divs if developing custom content (semantic-ui-react will use divs, this is acceptable)
