@@ -6,7 +6,7 @@
 
 Student Name: [Stephane](http://github.com/svaillancourt), [Soham](http://github.com/sohampatelk), [Marvin](http://github.com/MarvRoldan), [Karan](http://github.com/KaranPandher)
 
-[GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment) | [Trello]: (https://trello.com/b/MdkAHVEd/delivery-focused) |
+[GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment) | [Trello] (https://trello.com/b/MdkAHVEd/delivery-focused) |
  [Google Drive](https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing)
 
 Video Conference: Discord
