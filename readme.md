@@ -1,10 +1,10 @@
 ![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Img/banner.png)
 
-Project Title: Booze-pedia.com  (Working Title)
+# Project Title: Booze-pedia.com  (Working Title)
 
-Group Name: Delivery-Focused
+### Group Name: Delivery-Focused
 
-Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
+Student Name: [Stephane](http://github.com/svaillancourt), Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
 
 GitHub: https://github.com/svaillancourt/TECHCareers-Capstone-Assignment 
 
@@ -14,7 +14,7 @@ Google Drive: https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g
 
 Video Conference: Discord
 
-Installation Guide:
+### Installation Guide:
     
     npm install
     npm install react-redux
@@ -22,14 +22,14 @@ Installation Guide:
     npm install react-router-dom
     npm install @types/react-router-dom
 
-USER MANUAL: 
+### USER MANUAL: 
 
     Page Directory
 
-    Homepage:
-        Counter can be used to vote on each post. 
-        Each post is linked to the users page. 
-        Bark can be used to post a new post.
+- [x]   Homepage:
+> Counter can be used to vote on each post.  
+> Each post is linked to the users page. 
+> Bark can be used to post a new post.
 
     Products:
 
@@ -48,7 +48,7 @@ USER MANUAL:
         Any link that is not indexed goes to a 404 error page.
         
 
-Your project must fulfill the following coding criteria:
+### Your project must fulfill the following coding criteria:
 
     Demonstrates use of Semantic UI React 
     Demonstrates the use of Redux to manage states
@@ -59,7 +59,7 @@ Your project must fulfill the following coding criteria:
     Code must pass validator test (HTML, CSS, WCAG, if you are making custom content)
     Code must use TSX (Not JSX)
 
-Your project must fulfill the following coding best practices criteria:
+### Your project must fulfill the following coding best practices criteria:
 
     Break down all functionality into reusable components
     Project must be error free
@@ -71,7 +71,7 @@ Your project must fulfill the following coding best practices criteria:
     Main GitHub page should be set up with a proper project name, project banner, and basic installation instructions (assume the user has no idea on how to run the application) DONE
     Example: https://github.com/tensorflow/tensorflow
 
-Your project must fulfill the following design criteria:
+### Your project must fulfill the following design criteria:
     Demonstrates CARP design principles
     Demonstrates knowledge of color theory/correct colors are chosen
     No in-line styles
