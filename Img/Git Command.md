@@ -13,10 +13,10 @@
 
 ### Adding the remote repo url 
 
-> $ git remote -v
+> git remote -v
 > git remote add origin https://github.com/user/repo.git
 
-# Verify new remote
+### Verify new remote
 
 > origin  https://github.com/user/repo.git (fetch)
 > origin  https://github.com/user/repo.git (push)
