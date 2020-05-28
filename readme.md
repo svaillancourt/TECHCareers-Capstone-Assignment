@@ -33,7 +33,7 @@ USER MANUAL:
 
     Products:
 
-        Database of Beers (Domestic, Import, Canadian Local Brews, ) & Liquor (Gin, Vodka, Rum, Rye,Liquer, Tequila, (Whisky, Brandy, Cognac), )& Wine (White, Rose, Red, Spirits) (Coolers, Sparkling )
+        Database of Beers (Domestic, Import, Canadian Local Brews) & Liquor (Gin, Vodka, Rum, Rye, Liquer, Tequila, (Whisky, Brandy, Cognac) & Wine (White, Rose, Red) Spirits (Coolers, Sparkling)
 
     Login (UserName/Password):
         User can login and register.
