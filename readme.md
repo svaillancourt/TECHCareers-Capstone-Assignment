@@ -1,6 +1,6 @@
 ![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Img/bannerad.png)
 
-Group Name: Focused-Delivery
+Group Name: Delivery-Focused
 
 Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
 
