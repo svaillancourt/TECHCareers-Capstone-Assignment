@@ -1,8 +1,8 @@
 ![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Img/banner.png)
 
-Group Name: Delivery-Focused
-
 Project Title: Booze-pedia.com  (Working Title)
+
+Group Name: Delivery-Focused
 
 Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan), Karan (KaranPandher)
 
@@ -10,9 +10,9 @@ GitHub: https://github.com/svaillancourt/TECHCareers-Capstone-Assignment
 
 Trello: https://trello.com/b/MdkAHVEd/delivery-focused
 
-Video Conference: Discord
-
 Google Drive: https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing
+
+Video Conference: Discord
 
 Installation Guide:
     
