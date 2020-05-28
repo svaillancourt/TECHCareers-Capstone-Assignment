@@ -1,4 +1,4 @@
-![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Img/bannerad.png)
+![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Img/banner.png)
 
 Group Name: Delivery-Focused
 
