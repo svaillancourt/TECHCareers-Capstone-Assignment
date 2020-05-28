@@ -6,11 +6,11 @@ Student Name: Stephane (svaillancourt), Soham (sohampatelk), Marvin (MarvRoldan)
 
 GitHub: https://github.com/svaillancourt/TECHCareers-Capstone-Assignment 
 
-Trello: https://trello.com/b/DlQEtNw7/store
+Trello: https://trello.com/b/MdkAHVEd/delivery-focused
 
 Video Conference: Discord
 
-Doc file: 
+Google Drive: 
 
 Installation Guide:
     
