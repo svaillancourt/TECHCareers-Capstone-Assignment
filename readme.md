@@ -11,11 +11,24 @@ Resources: [GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assign
 
 Video Conference: [Discord](https://discord.com/)
 
+### Problem Statement
+
+### Description of how the app solves the stated problem is included
+
+> The [prior website](https://happy-hour-liquor.myshopify.com/) had a poor layout and and no real database. This was creating a bad user experience. They no real solution for delivery services.  
+
 ### Installation Guide:
     
-   place holder information
+> Please be sure to have the following software installed prior.
+- [Microsoft-Visual-Studio](https://visualstudio.microsoft.com/)
+- [Postman](https://www.postman.com/)
+- Internet Browser of your choice. (Chrome, IE, Safari, Firefox)
 
-### USER MANUAL: 
+### User manual for using application: 
+
+> Open a internet browser of your choice.
+
+#### Citations 
 
 #### Page Directory
 
@@ -54,10 +67,12 @@ Video Conference: [Discord](https://discord.com/)
 > - [ ] Record must exist after user has logged out, cleared their browser cache, and returned to the website
 > - [ ] Read Records From Database
 > - [ ] Sample data or dummy data must be stored in the database
-> - [ ] One of the following may apply:
+
+> #### One of the following may apply:
+
 > - [ ] You must include a .sql script with INSERT statements for your database 
 > - [ ] (README must include instruction on how to run this script)
-		OR
+>		OR
 > - [ ] INSERT equivalent (using Entity / Identity Framework in .NET) 
 > - [ ] (README must include instructions for installation and setup as well)
 > - [ ] Update Persistent Records In Database
@@ -103,7 +118,6 @@ Video Conference: [Discord](https://discord.com/)
 > - [ ] Have you or someone else started using the app? What do they think of it so far?
 > - [ ] Lessons Learned
 > - [ ] If you had to build another full-stack CRUD app what lessons would you apply that you have learned from this project.
-
 
 ### Technical Requirements
 
@@ -200,18 +214,18 @@ Video Conference: [Discord](https://discord.com/)
 
 ### Deliverables
 
-> - [ ] GitHub link
-> - [ ] README.md
-> - [ ] Name of project is included
-> - [ ] List of contributors is included
-> - [ ] Problem Statement is included
-> - [ ] Description of how the app solves the stated problem is included
-> - [ ] Instructions for installing application are complete
-> - [ ] Instructions for using application are complete
-> - [ ] List of all citations is complete
+> - [x] GitHub link
+> - [x] README.md
+> - [x] Name of project is included
+> - [x] List of contributors is included
+> - [x] Problem Statement is included
+> - [x] Description of how the app solves the stated problem is included
+> - [x] Instructions for installing application are complete
+> - [x] Instructions for using application are complete
+> - [x] List of all citations is complete
 > - [ ] List of test cases and testing instructions are included
-> - [ ] Link to public Trello board is included
-> - [ ] Master branch contains all final code needed to run the project
+> - [x] Link to public Trello board is included
+> - [x] Master branch contains all final code needed to run the project
 > - [ ] Presentation 
 > - [ ] Final Project Report
 > - [ ] Did you complete all in-scope tasks?
