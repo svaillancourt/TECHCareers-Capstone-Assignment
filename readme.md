@@ -77,7 +77,7 @@ Any link that is not indexed goes to a 404 error page.
 
 - [ ] You must include a .sql script with INSERT statements for your database 
 - [ ] (README must include instruction on how to run this script)
->		OR
+> OR
 - [ ] INSERT equivalent (using Entity / Identity Framework in .NET) 
 - [ ] (README must include instructions for installation and setup as well)
 - [ ] Update Persistent Records In Database
@@ -231,7 +231,6 @@ Any link that is not indexed goes to a 404 error page.
 - [x] List of all citations is complete
 - [ ] List of test cases and testing instructions are included
 - [x] Link to public Trello board is included
-
 - [x] Master branch contains all final code needed to run the project
 
 ### Presentation 
