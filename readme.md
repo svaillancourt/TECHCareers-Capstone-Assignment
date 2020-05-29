@@ -238,18 +238,18 @@ Video Conference: [Discord](https://discord.com/)
 - [ ] Did you complete all in-scope tasks?
 - [ ] Did you complete any extra tasks?
 
-* Satisfaction Assessment
+##### Satisfaction Assessment
 
 - [ ] Does your app solve your problem?
 - [ ] Have you or someone else started using the app? What do they think of it so far?
 
-* Lessons Learned
+##### Lessons Learned
 - [ ] If you had to build another full-stack CRUD app what lessons would you apply that you have learned from this project.
 
-* Group Member Performance Review
+##### Group Member Performance Review
 - [ ] Each group member has been evaluated
 - [ ] All fields filled out
 
-* Personal Reflection
+##### Personal Reflection
 - [ ] Written reflection
 - [ ] Video reflection
