@@ -1,21 +1,23 @@
-![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Booze-pedia/Booze-pedia/wwwroot/Img/banner.png)
+![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Booze-pedia/Booze-pedia/wwwroot/Img/banner2.jpg)
 
 # Project Title: Booze-pedia
 
 ### Group Name: Delivery-Focused
 
-Student Name: [Stephane](http://github.com/svaillancourt), [Soham](http://github.com/sohampatelk), [Marvin](http://github.com/MarvRoldan), [Karan](http://github.com/KaranPandher)
+Students Involved: [Stephane](http://github.com/svaillancourt), [Soham](http://github.com/sohampatelk), [Marvin](http://github.com/MarvRoldan), [Karan](http://github.com/KaranPandher)
 
 Resources: [GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment) | [Trello](https://trello.com/b/MdkAHVEd/delivery-focused) |
- [Google Drive](https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing) | [Wireframe](https://trello.com/b/MdkAHVEd/delivery-focused)
+ [Google Drive](https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing) | [Wireframe](https://drive.google.com/file/d/1zuXpzUE624g7-tNh7Mb1Zio1ptbp67Kk/view?usp=sharing)
 
 Video Conference: [Discord](https://discord.com/)
 
 ### Problem Statement
 
+> The [prior website](https://happy-hour-liquor.myshopify.com/) had a poor layout and and no real database. This was creating a bad user experience. They no real solution for delivery services.  
+
 ### Description of how the app solves the stated problem is included
 
-> The [prior website](https://happy-hour-liquor.myshopify.com/) had a poor layout and and no real database. This was creating a bad user experience. They no real solution for delivery services.  
+> This application creates a easier interface for a client to deliver substances to users. 
 
 ### Installation Guide:
     
@@ -28,9 +30,12 @@ Video Conference: [Discord](https://discord.com/)
 
 > Open a internet browser of your choice.
 
-#### Citations 
+### Citations 
 
-#### Page Directory
+> image source: [Pixelbay](https://pixabay.com/)
+> code: 
+
+### Webpages Index
 
 #### Homepage:
 
@@ -91,11 +96,11 @@ Video Conference: [Discord](https://discord.com/)
 
 ### Project Management Principles and Practices
 
-> - [ ] Problem Definition must be included in README
-> - [ ] Project Plan must include a Work Breakdown Structure
-> - [ ] Work Breakdown Structure hosted on Trello
+> - [x] Problem Definition must be included in README
+> - [x] Project Plan must include a Work Breakdown Structure
+> - [x] Work Breakdown Structure hosted on Trello
 > - [ ] Each card in the completed column must have a Member attached to it so we can see who did what at a glance
-> - [ ] Link to Trello must be included in README
+> - [x] Link to Trello must be included in README
 > - [ ] Project Plan must include some form of wireframe (feel free to use MS Paint)
 > - [ ] Include the final wireframe(s) in Trello as attachments on a card (don’t put this on git though, we want git reserved for the finished, polished project)
 > - [ ] Testing Plan must include instructions on how to test each feature
@@ -211,7 +216,6 @@ Video Conference: [Discord](https://discord.com/)
 > - [ ] Controls are grouped together logically with their labels
 > - [ ] Proper use of whitespace
 
-
 ### Deliverables
 
 > - [x] GitHub link
@@ -226,18 +230,26 @@ Video Conference: [Discord](https://discord.com/)
 > - [ ] List of test cases and testing instructions are included
 > - [x] Link to public Trello board is included
 > - [x] Master branch contains all final code needed to run the project
-> - [ ] Presentation 
-> - [ ] Final Project Report
+
+> ### Presentation 
+
+> * Final Project Report
+
 > - [ ] Did you complete all in-scope tasks?
 > - [ ] Did you complete any extra tasks?
-> - [ ] Satisfaction Assessment
+
+> * Satisfaction Assessment
+
 > - [ ] Does your app solve your problem?
 > - [ ] Have you or someone else started using the app? What do they think of it so far?
-> - [ ] Lessons Learned
+
+> * Lessons Learned
 > - [ ] If you had to build another full-stack CRUD app what lessons would you apply that you have learned from this project.
-> - [ ] Group Member Performance Review
+
+> * Group Member Performance Review
 > - [ ] Each group member has been evaluated
 > - [ ] All fields filled out
-> - [ ] Personal Reflection
+
+> * Personal Reflection
 > - [ ] Written reflection
 > - [ ] Video reflection
