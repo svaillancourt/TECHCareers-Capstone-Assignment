@@ -6,7 +6,7 @@
 
 Student Name: [Stephane](http://github.com/svaillancourt), [Soham](http://github.com/sohampatelk), [Marvin](http://github.com/MarvRoldan), [Karan](http://github.com/KaranPandher)
 
-[GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment) | [Trello](https://trello.com/b/MdkAHVEd/delivery-focused) |
+Resources: [GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment) | [Trello](https://trello.com/b/MdkAHVEd/delivery-focused) |
  [Google Drive](https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing)
 
 Video Conference: Discord
@@ -43,9 +43,10 @@ Video Conference: Discord
 
 #### Checkout:
 
-> processing the payment of your selected content.
+> Processing the payment of your selected content.
 
 #### Broken Link 404:
+
 > Any link that is not indexed goes to a 404 error page.
 
 ### Your project must fulfill the following coding criteria:
@@ -68,7 +69,7 @@ Video Conference: Discord
 > - [ ] Demonstrate concise and meaningful use of commenting
 > - [ ] Demonstrate concise and meaningful commit messages and active use of GitHub for version control as well as collaboration from multiple users
 > - [ ] Create a functionality document (intention of each page, explanation of features, think of it as a design and operating manual)
-> - [ ] Main GitHub page should be set up with a proper project name, project banner, and basic installation instructions (assume the user has no > - [ ] idea on how to run the application) DONE
+> - [ ] Main GitHub page should be set up with a proper project name, project banner, and basic installation instructions (assume the user has no > > - [ ] idea on how to run the application) DONE
 > - [ ] Example: https://github.com/tensorflow/tensorflow
 
 ### Your project must fulfill the following design criteria:
