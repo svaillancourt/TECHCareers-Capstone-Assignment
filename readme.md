@@ -1,6 +1,6 @@
 ![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Booze-pedia/Booze-pedia/wwwroot/Img/banner.png)
 
-# Project Title: Booze-pedia.com  (Working Title)
+# Project Title: Booze-pedia
 
 ### Group Name: Delivery-Focused
 
