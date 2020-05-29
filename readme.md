@@ -1,4 +1,4 @@
-![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/master/Booze-pedia/Booze-pedia/wwwroot/Img/banner2.jpg)
+![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/StephaneBranch/Booze-pedia/Booze-pedia/wwwroot/Img/banner2.jpg)
 
 # Project Title: Booze-pedia
 
@@ -225,7 +225,6 @@ Any link that is not indexed goes to a 404 error page.
 - [ ] Contents of each web page is grammar-checked
 - [ ] Contents of README is spell-checked
 - [ ] Contents of README is grammar-checked
-
 - [ ] Use up-to-date language features (const and let instead of var, section instead of div, string interpolation instead of string concatenation, etc.)
 
 ### Design Requirements
