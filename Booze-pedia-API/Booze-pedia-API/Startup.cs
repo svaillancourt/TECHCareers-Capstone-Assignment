@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+
 namespace Booze_pedia_API
 {
     public class Startup
@@ -27,6 +28,11 @@ namespace Booze_pedia_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => options.AddPolicy("BoozeAPIPolicy", builder => { 
+                builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            }));
             services.AddControllers();
             services.AddDbContext<BoozeContext>(options => options.UseInMemoryDatabase("BoozeList"));
         }
@@ -42,6 +48,8 @@ namespace Booze_pedia_API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("BoozeAPIPolicy");
 
             app.UseAuthorization();
 
