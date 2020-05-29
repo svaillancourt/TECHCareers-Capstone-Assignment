@@ -97,44 +97,61 @@ Any link that is not indexed goes to a 404 error page.
 ### Project Management Principles and Practices
 
 - [x] Problem Definition must be included in README
-- [x] Project Plan must include a Work Breakdown Structure
+
+#### Project Plan must include a Work Breakdown Structure
+
 - [x] Work Breakdown Structure hosted on Trello
 - [ ] Each card in the completed column must have a Member attached to it so we can see who did what at a glance
 - [x] Link to Trello must be included in README
 - [ ] Project Plan must include some form of wireframe (feel free to use MS Paint)
 - [ ] Include the final wireframe(s) in Trello as attachments on a card (don’t put this on git though, we want git reserved for the finished, polished project)
-- [ ] Testing Plan must include instructions on how to test each feature
+
+#### Testing Plan must include instructions on how to test each feature
+
 - [ ] Each test case must define the input, action and expected result for each test case
 - [ ] (Example: User with firstname == “B0b” cannot register, user with firstname == “Bob” can register, user with name == “B” can register)
 - [ ] (Example: Hamburger nav is visible on phone-sized device, full sized nav is visible on tablet-sized device, full sized nav is visible on desktop sized device)
 - [ ] List of test cases and testing instructions are included in README
-- [ ] Scope of the project must be well managed
+
+#### Scope of the project must be well managed
+
 - [ ] Unfinished features must not be apparent on the web page
 - [ ] Dead code must be deleted
 - [ ] The problem that you defined in your problem statement must be solved
-- [ ] Any features not related to the problem should be deprioritized or removed completely 
-- [ ] (Focus on solving one problem and solving it well)
-- [ ] Presentation must include the following talking points:
-- [ ] Final Project Report
+- [ ] Any features not related to the problem should be deprioritized or removed completely (Focus on solving one problem and solving it well)
+
+#### Presentation must include the following talking points:
+
+#### Final Project Report
+
 - [ ] Did you complete all in-scope tasks?
 - [ ] Did you complete any extra tasks?
-- [ ] Satisfaction Assessment
+
+#### Satisfaction Assessment
+
 - [ ] Does your app solve your problem?
 - [ ] Have you or someone else started using the app? What do they think of it so far?
-- [ ] Lessons Learned
+
+#### Lessons Learned
+
 - [ ] If you had to build another full-stack CRUD app what lessons would you apply that you have learned from this project.
 
 ### Technical Requirements
 
-- [ ] Data Validation must be done in each layer of the application
+#### Data Validation must be done in each layer of the application
+
 - [ ] Webforms must not allow users to enter incorrect data
 - [ ] Webforms must display validation errors with tips on how to resolve the errors
 - [ ] Server layer must check all input values BEFORE processing or storing data
 - [ ] Database must not allow invalid data to be stored
-- [ ] Data Persistence
+
+#### Data Persistence
+
 - [ ] All scripts to create the database and tables are included in the git repository
 - [ ] All scripts to insert data are included in the git repository
-- [ ] Intuitive User Interface
+
+#### Intuitive User Interface
+
 - [ ] Consistent navigation across all pages
 - [ ] Links don’t grow or shrink or run away from the mouse
 - [ ] Links are in the same place every time
@@ -143,74 +160,99 @@ Any link that is not indexed goes to a 404 error page.
 - [ ] Error messages explain how to fix the error
 - [ ] Web controls are used appropriately and consistently
 - [ ] On-screen instructions - if necessary - are easy to understand
-- [ ] Mobile First
+
+#### Mobile First
+
 - [ ] All content is legible on a small screen
 - [ ] Content is contained on the screen without horizontal scrolling
 - [ ] Buttons and forms all work on mobile
 - [ ] Buttons are not too close together
 - [ ] Form fields and labels are visible while typing with on-screen keyboard
 - [ ] All key features needed to solve your problem are available in mobile mode
-- [ ] Responsive
+#### Responsive
+
 - [ ] Uses media queries to manage different devices
 - [ ] Uses fluid units of measurement consistently
 - [ ] May use px measurements for min-width
 - [ ] All content is legible
 - [ ] Content is contained on the screen without horizontal scrolling
 - [ ] All html pages have the appropriate meta tag for accessing the device’s width
-- [ ] Accessible
+
+#### Accessible
+
 - [ ] Source code and website passes WCAG validator
-- [ ] W3C Compliance
+
+#### W3C Compliance
+
 - [ ] HTML passes W3C Validator
 - [ ] CSS passes W3C Validator
-- [ ] Separation of Concerns
+
+#### Separation of Concerns
+
 - [ ] Presentation layer contains only presentation code, and some data validation code to prevent users from entering erroneous data
 - [ ] Business logic held in appropriate services, single-purpose principle is applied throughout the project.
 - [ ] Data storage and data access layer does not contain any data transformations and reinforces data validation
-- [ ] Browser Console
+
+####  Browser Console
+
 - [ ] No error messages when using application
 - [ ] No console log messages while using application
 - [ ] Does not reveal sensitive user information
-- [ ] Code is commented
+
+#### Code is commented
+
 - [ ] Citations must include full urls for any code found, borrowed, modified, from the internet, from the class, or from any source other than yourself. If you borrow code from a book, provide the title of the book, the author(s), and the ISBN.
 - [ ] Citations must be duplicated in README.md
 - [ ] Comments describe what methods are meant to do.
 - [ ] Comments do not contain old/dead code.
-- [ ] Naming Conventions
+
+#### Naming Conventions
+
 - [ ] Proper casing on file names
 - [ ] Proper casing on variables/functions/modules
 - [ ] Variables/functions/modules have descriptive names
-- [ ] General Good coding practices
+
+####  General Good coding practices
+
 - [ ] Look for blocks of code with more than a few lines of code that look similar. Is it possible to refactor to reduce duplication? DRY your code!
 - [ ] Simplify “too smart” and over-engineered code.
 - [ ] No hardcoded values, use constants values.
 - [ ] User input is sanitized (escape characters, leading and trailing whitespace, and inappropriate values are removed)
-- [ ] Spelling and Grammar
+
+#### Spelling and Grammar
+
 - [ ] Contents of each web page is spell-checked
 - [ ] Contents of each web page is grammar-checked
 - [ ] Contents of README is spell-checked
 - [ ] Contents of README is grammar-checked
-- [ ] Use up-to-date language features
-- [ ] (const and let instead of var, section instead of div, string interpolation instead of string concatenation, etc.)
 
+- [ ] Use up-to-date language features (const and let instead of var, section instead of div, string interpolation instead of string concatenation, etc.)
 
 ### Design Requirements
 
-- [ ] Contrast
+#### Contrast
+
 - [ ] Font colours must pass the Web AIM contrast checker
 - [ ] Contrast does not cause eye strain (black on white, red on green, etc)
 - [ ] Size contrasts are used correctly if size contrast is used at all
 - [ ] (big buttons for important actions, small buttons for unimportant actions)
-- [ ] Alignment
+
+#### Alignment
+
 - [ ] Content does not overflow from it’s boundaries
 - [ ] Content appears organized and structured
 - [ ] Text content is not center-aligned
 - [ ] (exceptions permitted for poetry and wedding invitations)
-- [ ] Repetition
+
+#### Repetition
+
 - [ ] Navigation placement is consistent across the whole application
 - [ ] Button and link styles are consistent across the whole application
 - [ ] Button and link behaviour is consistent across the whole application
 - [ ] Text styles are consistent across the application
-- [ ] Proximity
+
+#### Proximity
+
 - [ ] Alike content items are grouped closer to one another
 - [ ] No content is crowded against other content or the edges of the browser
 - [ ] Controls are grouped together logically with their labels
