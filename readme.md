@@ -37,29 +37,29 @@ Open a internet browser of your choice.
 
 ### Webpages Index
 
-#### Homepage:
+> #### Homepage:
 
 Counter can be used to vote on each post.  
 Each post is linked to the users page. 
 Bark can be used to post a new post.
 
-#### Products:
+> #### Products:
 
 Database of Beers (Domestic, Import, Canadian Local Brews) & Liquor (Gin, Vodka, Rum, Rye, Liquer, Tequila, (Whisky, Brandy, Cognac) & Wine (White, Rose, Red) Spirits (Coolers, Sparkling)
 
-#### Login (UserName/Password):
+> #### Login (UserName/Password):
 
 User can login and register.
 
-#### Cart:
+> #### Cart:
 
 Visiual representation of the content of your cart before checkout.
 
-#### Checkout:
+> #### Checkout:
 
 Processing the payment of your selected content.
 
-#### Broken Link 404:
+> #### Broken Link 404:
 
 Any link that is not indexed goes to a 404 error page.
 
