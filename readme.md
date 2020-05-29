@@ -32,8 +32,8 @@ Video Conference: [Discord](https://discord.com/)
 
 ### Citations 
 
-> image source: [Pixelbay](https://pixabay.com/)
-> code: 
+> * Image source: [Pixelbay](https://pixabay.com/)
+> * Code: 
 
 ### Webpages Index
 
@@ -220,15 +220,15 @@ Video Conference: [Discord](https://discord.com/)
 
 > - [x] GitHub link
 > - [x] README.md
-> - [x] Name of project is included
-> - [x] List of contributors is included
-> - [x] Problem Statement is included
-> - [x] Description of how the app solves the stated problem is included
-> - [x] Instructions for installing application are complete
-> - [x] Instructions for using application are complete
-> - [x] List of all citations is complete
-> - [ ] List of test cases and testing instructions are included
-> - [x] Link to public Trello board is included
+* > - [x] Name of project is included
+* > - [x] List of contributors is included
+* > - [x] Problem Statement is included
+* > - [x] Description of how the app solves the stated problem is included
+* > - [x] Instructions for installing application are complete
+* > - [x] Instructions for using application are complete
+* > - [x] List of all citations is complete
+* > - [ ] List of test cases and testing instructions are included
+* > - [x] Link to public Trello board is included
 > - [x] Master branch contains all final code needed to run the project
 
 > ### Presentation 
