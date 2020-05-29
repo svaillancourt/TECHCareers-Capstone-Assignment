@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cISCr7PLjEmkYIE+UUAirqH/DcU4rpuUbJQ+uMxkCJGaHw4yM8ND4anJZHDM1EAiywhKYkemnys7dtkV3I5ogg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia-API\\Booze-pedia-API\\Booze-pedia-API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marvin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
