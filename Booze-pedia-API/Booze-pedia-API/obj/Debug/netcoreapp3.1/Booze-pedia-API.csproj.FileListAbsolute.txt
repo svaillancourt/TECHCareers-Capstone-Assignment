@@ -10,8 +10,6 @@ C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pe
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\Booze-pedia-API.csprojAssemblyReference.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\Booze-pedia-API.AssemblyInfoInputs.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\Booze-pedia-API.AssemblyInfo.cs
-C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\Booze-pedia-API.csproj.CoreCompileInputs.cache
-C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\Booze-pedia-API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\Booze-pedia-API.RazorTargetAssemblyInfo.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\staticwebassets\Booze-pedia-API.StaticWebAssets.Manifest.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia-API\Booze-pedia-API\obj\Debug\netcoreapp3.1\staticwebassets\Booze-pedia-API.StaticWebAssets.xml
