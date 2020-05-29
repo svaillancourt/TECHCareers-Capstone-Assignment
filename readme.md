@@ -9,7 +9,7 @@ Students Involved: [Stephane](http://github.com/svaillancourt), [Soham](http://g
 Resources: [GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment) | [Trello](https://trello.com/b/MdkAHVEd/delivery-focused) |
  [Google Drive](https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing) | [Wireframe](https://drive.google.com/file/d/1zuXpzUE624g7-tNh7Mb1Zio1ptbp67Kk/view?usp=sharing)
 
-Video Conference: [Discord](https://discord.com/)
+Communication Platform: [Discord](https://discord.com/)
 
 ### Problem Statement
 
