@@ -8,16 +8,21 @@ namespace Booze_pedia_API.Models
 {
     public class BoozeItem
     {
-        [Required]
         public int Id { get; set; }
         [Required]
+        [StringLength(30, ErrorMessage = "Reached character limit of 30")]
         public string Name { get; set; }
         [Required]
+        [StringLength(20, ErrorMessage = "Reached character limit of 20")]
         public string Category { get; set; }
+        [StringLength(250, ErrorMessage = "Reached character limit of 250")]
+        public string Description { get; set; }
         [Required]
+        [Range(0, 100)]
         public int Quantity { get; set; }
         [Required]
-        public int Price { get; set; }
+        [Range(0, 999.99)]
+        public decimal Price { get; set; }
         [Required]
         public bool InStock { get; set; }
     }
