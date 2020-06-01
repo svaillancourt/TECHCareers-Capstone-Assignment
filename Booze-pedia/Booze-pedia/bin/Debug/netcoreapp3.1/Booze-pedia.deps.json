@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Booze-pedia/1.0.0": {
+      "Booze-Pedia/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.4",
@@ -285,10 +285,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Booze-pedia.dll": {}
+          "Booze-Pedia.dll": {}
         },
         "compile": {
-          "Booze-pedia.dll": {}
+          "Booze-Pedia.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.4": {
@@ -2881,7 +2881,7 @@
     }
   },
   "libraries": {
-    "Booze-pedia/1.0.0": {
+    "Booze-Pedia/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

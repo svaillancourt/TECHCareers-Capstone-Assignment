@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-Booze_pedia-12432A0D-CE1F-4E51-B7E1-EB448E724825</UserSecretsId>
-    <RootNamespace>Booze_pedia</RootNamespace>
+    <UserSecretsId>aspnet-Booze_Pedia-7BB547F8-3EBF-46A8-8847-5EF855270553</UserSecretsId>
+    <RootNamespace>Booze_Pedia</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

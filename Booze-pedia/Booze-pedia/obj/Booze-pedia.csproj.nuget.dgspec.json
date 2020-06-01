@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marvin\\Desktop\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj": {}
+    "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marvin\\Desktop\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj": {
+    "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marvin\\Desktop\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
-        "projectName": "Booze-pedia",
-        "projectPath": "C:\\Users\\Marvin\\Desktop\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
-        "packagesPath": "C:\\Users\\Marvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marvin\\Desktop\\Booze-pedia\\Booze-pedia\\obj\\",
+        "projectUniqueName": "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj",
+        "projectName": "Booze-Pedia",
+        "projectPath": "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj",
+        "packagesPath": "C:\\Users\\Step Laptop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Step Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
