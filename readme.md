@@ -1,19 +1,19 @@
 ![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/StephaneBranch/Booze-pedia/Booze-pedia/wwwroot/Img/banner2.jpg)
 
-# Project Title: Booze-pedia
+# Project Title: Booze-Pedia
 
 ### Group Name: Delivery-Focused
 
 Students Involved: [Stephane](http://github.com/svaillancourt), [Soham](http://github.com/sohampatelk), [Marvin](http://github.com/MarvRoldan), [Karan](http://github.com/KaranPandher)
 
 Resources: [GitHub](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment) | [Trello](https://trello.com/b/MdkAHVEd/delivery-focused) |
- [Google Drive](https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing) | [Wireframe](https://drive.google.com/file/d/1zuXpzUE624g7-tNh7Mb1Zio1ptbp67Kk/view?usp=sharing)
+ [Google Drive](https://drive.google.com/drive/folders/1qXbzhE4FHtSnGMNoGACNNct19g7GrCTs?usp=sharing) | Wireframes: [Desktop](https://drive.google.com/file/d/1UmdGpzQzBbiEvVv2DdXmY4wOgfS_y9lx/view?usp=sharing) | [Mobile](https://drive.google.com/file/d/1TwnjqiPZsnNKU6ZfRq8WkeyB94HoKwlP/view?usp=sharing)
 
 Communication Platform: [Discord](https://discord.com/)
 
 ### Problem Statement
 
-The [prior website](https://happy-hour-liquor.myshopify.com/) had a poor layout and and no real database. This was creating a bad user experience. They no real solution for delivery services.  
+The [prior website](https://happy-hour-liquor.myshopify.com/) had a poor layout and and no real database. This was creating a bad user experience. They no real solution for delivery services either.  
 
 ### Description of how the app solves the stated problem is included
 
@@ -270,7 +270,7 @@ Any link that is not indexed goes to a 404 error page.
 - [x] Instructions for installing application are complete
 - [x] Instructions for using application are complete
 - [x] List of all citations is complete
-- [ ] List of test cases and testing instructions are included
+- [x] List of test cases and testing instructions are included
 - [x] Link to public Trello board is included
 - [x] Master branch contains all final code needed to run the project
 

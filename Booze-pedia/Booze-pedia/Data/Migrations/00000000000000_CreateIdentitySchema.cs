@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Booze_pedia.Data.Migrations
+namespace Booze_Pedia.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
