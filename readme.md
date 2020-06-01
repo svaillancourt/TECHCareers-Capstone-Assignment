@@ -1,4 +1,4 @@
-![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/StephaneBranch/Booze-pedia/Booze-pedia/wwwroot/Img/banner2.jpg)
+![banner](https://github.com/svaillancourt/TECHCareers-Capstone-Assignment/blob/StephaneBranch/Booze-pedia/Booze-pedia/wwwroot/Img/banner.jpg)
 
 # Project Title: Booze-Pedia
 
