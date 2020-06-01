@@ -103,8 +103,8 @@ Any link that is not indexed goes to a 404 error page.
 - [x] Work Breakdown Structure hosted on Trello
 - [ ] Each card in the completed column must have a Member attached to it so we can see who did what at a glance
 - [x] Link to Trello must be included in README
-- [ ] Project Plan must include some form of wireframe (feel free to use MS Paint)
-- [ ] Include the final wireframe(s) in Trello as attachments on a card (don’t put this on git though, we want git reserved for the finished, polished project)
+- [x] Project Plan must include some form of wireframe (feel free to use MS Paint)
+- [x] Include the final wireframe(s) in Trello as attachments on a card (don’t put this on git though, we want git reserved for the finished, polished project)
 
 #### Testing Plan must include instructions on how to test each feature
 
