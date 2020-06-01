@@ -10,12 +10,12 @@ namespace Booze_pedia_API.Models
     {
         public int Id { get; set; }
         [Required]
-        [StringLength(30, ErrorMessage = "Reached character limit of 30")]
+        [StringLength(30, ErrorMessage = "Reached character limit of 30", MinimumLength = 3 )]
         public string Name { get; set; }
         [Required]
-        [StringLength(20, ErrorMessage = "Reached character limit of 20")]
+        [StringLength(20, ErrorMessage = "Reached character limit of 20", MinimumLength = 3)]
         public string Category { get; set; }
-        [StringLength(250, ErrorMessage = "Reached character limit of 250")]
+        [StringLength(250, ErrorMessage = "Reached character limit of 250", MinimumLength = 3)]
         public string Description { get; set; }
         [Required]
         [Range(0, 100)]
