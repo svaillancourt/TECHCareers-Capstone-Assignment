@@ -16,6 +16,10 @@
 > git remote -v
 > git remote add origin https://github.com/user/repo.git
 
+### Updating local branch
+> git pull https://github.com/user/repo.git
+> git stash (Some cases you might need to save before pulling)
+
 ### Verify new remote
 
 > origin  https://github.com/user/repo.git (fetch)
