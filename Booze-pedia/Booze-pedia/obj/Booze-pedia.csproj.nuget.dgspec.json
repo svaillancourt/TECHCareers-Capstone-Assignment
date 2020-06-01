@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj": {}
+    "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-Pedia\\Booze-Pedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj": {
+    "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-Pedia\\Booze-Pedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj",
+        "projectUniqueName": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-Pedia\\Booze-Pedia.csproj",
         "projectName": "Booze-Pedia",
-        "projectPath": "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\Booze-Pedia.csproj",
-        "packagesPath": "C:\\Users\\Step Laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Step Laptop\\Google Drive\\Projects\\School\\TechCareers\\Assignments and Projects\\TECHCareers-Capstone-Project\\Project\\Booze-Pedia\\Booze-Pedia\\obj\\",
+        "projectPath": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-Pedia\\Booze-Pedia.csproj",
+        "packagesPath": "C:\\Users\\Marvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-Pedia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Step Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
