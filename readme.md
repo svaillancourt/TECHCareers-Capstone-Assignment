@@ -65,31 +65,31 @@ Any link that is not indexed goes to a 404 error page.
 
 ### Full-Stack Requirements
 
-- [ ] Create Persistent Records
-- [ ] Must demonstrate at least one data constraint
+- [ ] Create Persistent Records.
+- [ ] Must demonstrate at least one data constraint.
 (Example: A user’s first name or last name cannot contain numbers)
-- [ ] Data constraint must be protected at every layer of the application
-- [ ] Record must exist after user has logged out, cleared their browser cache, and returned to the website
-- [ ] Read Records From Database
-- [ ] Sample data or dummy data must be stored in the database
+- [ ] Data constraint must be protected at every layer of the application.
+- [ ] Record must exist after user has logged out, cleared their browser cache, and returned to the website.
+- [ ] Read Records From Database.
+- [ ] Sample data or dummy data must be stored in the database.
 
 #### One of the following may apply:
 
-- [ ] You must include a .sql script with INSERT statements for your database 
+- [ ] You must include a .sql script with INSERT statements for your database. 
 - [ ] (README must include instruction on how to run this script)
 > OR
-- [ ] INSERT equivalent (using Entity / Identity Framework in .NET) 
-- [ ] (README must include instructions for installation and setup as well)
-- [ ] Update Persistent Records In Database
-- [ ] Updates must enforce the same data constraints that were mentioned in the create
-- [ ] Record’s state must remain updated after user has logged out, cleared their browser cache, and returned to the website
-- [ ] (This includes dummy data or any starting data your app has)
-- [ ] Delete Records in Database
-- [ ] Must demonstrate the safe deletion of records
-- [ ] Child records must never be orphaned
-- [ ] No view may display any part of the deleted record, or any part of the deleted child records
+- [ ] INSERT equivalent (using Entity / Identity Framework in .NET). 
+- [ ] (README must include instructions for installation and setup as well).
+- [ ] Update Persistent Records In Database.
+- [ ] Updates must enforce the same data constraints that were mentioned in the create.
+- [ ] Record’s state must remain updated after user has logged out, cleared their browser cache, and returned to the website.
+- [ ] (This includes dummy data or any starting data your app has).
+- [ ] Delete Records in Database.
+- [ ] Must demonstrate the safe deletion of records.
+- [ ] Child records must never be orphaned.
+- [ ] No view may display any part of the deleted record, or any part of the deleted child records.
 - [ ] Choosing to ‘archive’ records rather than delete them is acceptable only if: 
-- [ ] Child records are also archived
+- [ ] Child records are also archived.
 - [ ] User is presented with text stating that record was archived and not permanently deleted
 - [ ] Record must remain deleted after user has logged out, cleared their browser cache, and returned to the website
 
