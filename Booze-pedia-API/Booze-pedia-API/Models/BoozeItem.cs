@@ -10,7 +10,7 @@ namespace Booze_pedia_API.Models
     {
         public int Id { get; set; }
         [Required]
-        [StringLength(30, ErrorMessage = "Minimum of 3 characters or max  of 30", MinimumLength = 3 )]
+        [StringLength(30, ErrorMessage = "Minimum of 3 characters or max  of 30", MinimumLength = 3)]
         public string Name { get; set; }
         [Required]
         [StringLength(20, ErrorMessage = "Minimum of 3 characters or max  of 20", MinimumLength = 3)]
