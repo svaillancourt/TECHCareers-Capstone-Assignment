@@ -162,3 +162,8 @@ C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.csproj.CoreCompileInputs.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Razor\Views\Boozes\Create.cshtml.g.cs
+C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Razor\Views\Boozes\Delete.cshtml.g.cs
+C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Razor\Views\Boozes\Details.cshtml.g.cs
+C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Razor\Views\Boozes\Edit.cshtml.g.cs
+C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Razor\Views\Boozes\Index.cshtml.g.cs
