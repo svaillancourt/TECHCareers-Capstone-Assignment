@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Booze_pedia.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Booze_pedia
 {
@@ -24,6 +27,8 @@ namespace Booze_pedia
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<BoozeContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("BoozeContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
