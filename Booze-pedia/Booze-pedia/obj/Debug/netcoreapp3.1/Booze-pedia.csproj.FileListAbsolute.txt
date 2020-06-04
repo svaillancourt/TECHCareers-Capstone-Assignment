@@ -12,8 +12,6 @@ C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.csprojAssemblyReference.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.AssemblyInfoInputs.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.AssemblyInfo.cs
-C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.csproj.CoreCompileInputs.cache
-C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.RazorAssemblyInfo.cache
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.RazorAssemblyInfo.cs
 C:\Users\Marvin\Desktop\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.TagHelpers.input.cache
