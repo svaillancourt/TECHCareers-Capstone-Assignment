@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booze-Pedia", "Booze-Pedia\Booze-Pedia.csproj", "{3DC0D615-0BE2-415E-995A-6F19B8D9CC3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booze-pedia", "Booze-pedia\Booze-pedia.csproj", "{0CCC4708-9281-489F-AD46-9BB0CB1F6A58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3DC0D615-0BE2-415E-995A-6F19B8D9CC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DC0D615-0BE2-415E-995A-6F19B8D9CC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DC0D615-0BE2-415E-995A-6F19B8D9CC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DC0D615-0BE2-415E-995A-6F19B8D9CC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCC4708-9281-489F-AD46-9BB0CB1F6A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCC4708-9281-489F-AD46-9BB0CB1F6A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCC4708-9281-489F-AD46-9BB0CB1F6A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCC4708-9281-489F-AD46-9BB0CB1F6A58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {45E8DEC8-AC51-4C09-9FB7-9CE7C0047F0B}
+		SolutionGuid = {D24F56B8-3139-4B1C-8D36-44C76186B5E7}
 	EndGlobalSection
 EndGlobal
