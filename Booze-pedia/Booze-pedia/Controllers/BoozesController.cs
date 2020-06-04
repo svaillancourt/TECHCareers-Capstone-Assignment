@@ -20,9 +20,17 @@ namespace Booze_pedia.Controllers
         }
 
         // GET: Boozes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Booze.ToListAsync());
+            var boozes = from m in _context.Booze
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                boozes = boozes.Where(s => s.Name.Contains(searchString));
+            }
+
+            return View(await boozes.ToListAsync());
         }
 
         // GET: Boozes/Details/5

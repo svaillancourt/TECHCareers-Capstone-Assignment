@@ -29,7 +29,7 @@ namespace Booze_pedia.Models
                         Category = "Beer",
                         Description = "Lager",
                         Quantity = 50,
-                        Price = 2,
+                        Price = 2.50M, // The M tells the complier that it's a decimal and not a double. 
                         InStock = true
                     },
 
@@ -39,7 +39,7 @@ namespace Booze_pedia.Models
                         Category = "Beer",
                         Description = "Lager",
                         Quantity = 100,
-                        Price = 3,
+                        Price = 3.99M,
                         InStock = true
                     },
 
@@ -49,7 +49,7 @@ namespace Booze_pedia.Models
                         Category = "Beer",
                         Description = "Lager",
                         Quantity = 50,
-                        Price = 2,
+                        Price = 2.00M,
                         InStock = true
                     },
 
@@ -59,7 +59,7 @@ namespace Booze_pedia.Models
                         Category = "Whiskey",
                         Description = "Scotch Wiskey",
                         Quantity = 50,
-                        Price = 45,
+                        Price = 44.99M,
                         InStock = true
                     }
                 );
