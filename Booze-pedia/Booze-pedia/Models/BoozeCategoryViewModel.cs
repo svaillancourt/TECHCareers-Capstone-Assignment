@@ -12,5 +12,6 @@ namespace Booze_pedia.Models
         public SelectList Category { get; set; }
         public string BoozeCategory { get; set; }
         public string SearchString { get; set; }
+        public bool InStockSearchString { get; set; }
     }
 }
