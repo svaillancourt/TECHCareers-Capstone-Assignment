@@ -11,12 +11,12 @@ namespace Booze_pedia.Models
     {
         public int Id { get; set; }
         [Required]
-        [StringLength(30, ErrorMessage = "Minimum of 3 characters or max  of 30", MinimumLength = 3)]
+        [StringLength(30, MinimumLength = 3)]
         public string Name { get; set; }
         [Required]
-        [StringLength(20, ErrorMessage = "Minimum of 3 characters or max  of 20", MinimumLength = 3)]
+        [StringLength(20, MinimumLength = 3)]
         public string Category { get; set; }
-        [StringLength(250, ErrorMessage = "Minimum of 3 characters or max  of 250", MinimumLength = 3)]
+        [StringLength(250, MinimumLength = 3)]
         public string Description { get; set; }
         [Required]
         [Range(0, 100)]
