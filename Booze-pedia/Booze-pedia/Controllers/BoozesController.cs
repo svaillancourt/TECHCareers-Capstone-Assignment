@@ -20,7 +20,7 @@ namespace Booze_pedia.Controllers
         }
 
         // GET: Boozes
-        public async Task<IActionResult> Index(string boozeCategory, string searchString)
+        public async Task<IActionResult> Index(string boozeCategory, string searchString, bool inStockSearchString)
         {
             // Use LINQ to get list of genres.
             IQueryable<string> categoryQuery = from m in _context.Booze
@@ -29,15 +29,17 @@ namespace Booze_pedia.Controllers
 
             var boozes = from m in _context.Booze
                          select m;
-
+            
             if (!string.IsNullOrEmpty(searchString))
             {
-                boozes = boozes.Where(s => s.Name.Contains(searchString));
+                boozes = boozes.Where(s => s.Name.Contains(searchString ));
             }
+         
+
 
             if (!string.IsNullOrEmpty(boozeCategory))
             {
-                boozes = boozes.Where(x => x.Category == boozeCategory);
+                boozes = boozes.Where(x => ((x.Category == boozeCategory) && (x.InStock == inStockSearchString)));
             }
 
             var boozeCategoryVM = new BoozeCategoryViewModel
