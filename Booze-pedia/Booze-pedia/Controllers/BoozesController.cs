@@ -7,16 +7,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Booze_pedia.Data;
 using Booze_pedia.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
 
 namespace Booze_pedia.Controllers
 {
     public class BoozesController : Controller
     {
         private readonly BoozeContext _context;
+        private readonly IWebHostEnvironment _hostEnvironment;
 
-        public BoozesController(BoozeContext context)
+        public BoozesController(BoozeContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            this._hostEnvironment = hostEnvironment;
         }
 
         // GET: Boozes
@@ -86,11 +90,22 @@ namespace Booze_pedia.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Category,Description,Quantity,Price,InStock")] Booze booze)
+        public async Task<IActionResult> Create([Bind("Id,Name,Category,Description,Quantity,Price,InStock,PictureFile")] Booze booze)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(booze);
+                // Saves the images to wwwroot/img
+                string wwwRootPath = _hostEnvironment.WebRootPath;
+                string fileName = Path.GetFileNameWithoutExtension(booze.PictureFile.FileName);
+                string extension = Path.GetExtension(booze.PictureFile.FileName);
+                booze.PictureName=fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;
+                string path = Path.Combine(wwwRootPath + "/img/", fileName);
+                using (var fileStream = new FileStream(path,FileMode.Create))
+                {
+                    await booze.PictureFile.CopyToAsync(fileStream);
+                }
+                // Insert record
+                    _context.Add(booze);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -118,7 +133,7 @@ namespace Booze_pedia.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Category,Description,Quantity,Price,InStock")] Booze booze)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Category,Description,Quantity,Price,InStock,PictureFile")] Booze booze)
         {
             if (id != booze.Id)
             {
@@ -129,6 +144,16 @@ namespace Booze_pedia.Controllers
             {
                 try
                 {
+                    string wwwRootPath = _hostEnvironment.WebRootPath;
+                    string fileName = Path.GetFileNameWithoutExtension(booze.PictureFile.FileName);
+                    string extension = Path.GetExtension(booze.PictureFile.FileName);
+                    booze.PictureName = fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/img/", fileName);
+                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    {
+                        await booze.PictureFile.CopyToAsync(fileStream);
+                    }
+
                     _context.Update(booze);
                     await _context.SaveChangesAsync();
                 }
@@ -172,6 +197,13 @@ namespace Booze_pedia.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var booze = await _context.Booze.FindAsync(id);
+
+            // Delete image from wwwroot/img
+            var imagePath = Path.Combine(_hostEnvironment.WebRootPath, "img", booze.PictureName);
+            if (System.IO.File.Exists(imagePath))
+            // Delete the record
+                System.IO.File.Delete(imagePath);
+
             _context.Booze.Remove(booze);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
