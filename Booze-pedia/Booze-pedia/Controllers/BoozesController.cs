@@ -29,17 +29,21 @@ namespace Booze_pedia.Controllers
 
             var boozes = from m in _context.Booze
                          select m;
-            
+
+            //search by name and descriptoion
             if (!string.IsNullOrEmpty(searchString))
             {
-                boozes = boozes.Where(s => s.Name.Contains(searchString ));
+                boozes = boozes.Where(s => ((s.Name.Contains(searchString ) || (s.Description.Contains(searchString))) && (s.InStock == inStockSearchString)));
             }
-         
-
+            
+            if(inStockSearchString == true)
+            {
+                boozes = boozes.Where(i => i.InStock == inStockSearchString);
+            }
 
             if (!string.IsNullOrEmpty(boozeCategory))
             {
-                boozes = boozes.Where(x => ((x.Category == boozeCategory) && (x.InStock == inStockSearchString)));
+                boozes = boozes.Where(x => ((x.Category == boozeCategory) ));
             }
 
             var boozeCategoryVM = new BoozeCategoryViewModel
