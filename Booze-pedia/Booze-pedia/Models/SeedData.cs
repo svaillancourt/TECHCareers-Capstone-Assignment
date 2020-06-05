@@ -24,7 +24,7 @@ namespace Booze_pedia.Models
 
                 context.Booze.AddRange(
                     new Booze
-                    {
+                    { 
                         Name = "Molson Canadian",
                         Category = "Beer",
                         Description = "Lager",
@@ -62,9 +62,14 @@ namespace Booze_pedia.Models
                         Price = 44.99M,
                         InStock = true
                     }
-                );
+                );  
                 context.SaveChanges();
             }
+        }
+
+        private static string ReadFile(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
