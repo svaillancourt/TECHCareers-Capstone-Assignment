@@ -55,7 +55,7 @@ namespace Booze_pedia
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Boozes}/{action=Index}/{id?}");
             });
         }
     }

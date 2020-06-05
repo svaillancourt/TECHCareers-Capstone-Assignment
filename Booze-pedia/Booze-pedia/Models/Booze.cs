@@ -35,6 +35,7 @@ namespace Booze_pedia.Models
         public decimal Price { get; set; }
 
         [Required]
+        [DisplayName("In Stock")]
         public bool InStock { get; set; }
 
         [DisplayName("Picture Name")]
