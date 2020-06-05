@@ -28,7 +28,8 @@ namespace Booze_pedia
         {
             services.AddControllersWithViews();
             services.AddDbContext<BoozeContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("BoozeContext")));
+                options.UseSqlServer(Configuration.GetConnectionString("BoozeContext")));
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
