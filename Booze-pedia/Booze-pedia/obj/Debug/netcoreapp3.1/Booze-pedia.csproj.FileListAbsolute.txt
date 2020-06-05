@@ -305,8 +305,6 @@ C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignme
 C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.csproj.CoreCompileInputs.cache
-C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.RazorAssemblyInfo.cache
 C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.RazorAssemblyInfo.cs
 C:\Users\soham\Desktop\project\new-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.AssemblyInfoInputs.cache
