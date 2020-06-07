@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Booze_pedia.Migrations
 {
     [DbContext(typeof(BoozeContext))]
-    [Migration("20200605033020_BoozeContext-1")]
+    [Migration("20200607161855_BoozeContext-1")]
     partial class BoozeContext1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -9,9 +9,11 @@ using Booze_pedia.Data;
 using Booze_pedia.Models;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Booze_pedia.Controllers
 {
+    [Authorize]
     public class BoozesController : Controller
     {
         private readonly BoozeContext _context;
