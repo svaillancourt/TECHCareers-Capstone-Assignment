@@ -7,8 +7,10 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Booze</h4>
     <hr />
+    <div class="row-sm-2">
+        <img src="@("~/img/"+Model.PictureName)" asp-append-version="true" width="300" height="300" />
+    </div>
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
@@ -45,12 +47,6 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.InStock)
-        </dd>
-        <dt class="col-sm-2">
-            Uploaded Image
-        </dt>
-        <dd class="col-sm-10">
-            <img src="@("~/img/"+Model.PictureName)" asp-append-version="true" width="150" height="150" />
         </dd>
     </dl>
 </div>
