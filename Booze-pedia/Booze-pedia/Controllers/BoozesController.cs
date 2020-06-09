@@ -27,7 +27,7 @@ namespace Booze_pedia.Controllers
             this._hostEnvironment = hostEnvironment;
         }
 
-        // GET: Boozes This function is list out all liquor list in the application
+        // GET: Boozes: This function is list out all liquor list in the application
         public async Task<IActionResult> Index(string boozeCategory, string searchString, bool inStockSearchString)
         {
             // Use LINQ to get list of Liquors by category
@@ -126,7 +126,7 @@ namespace Booze_pedia.Controllers
             return View(booze);
         }
 
-        // This method runs for edit the data of perticulart list which passes id as parameter.
+        // This method runs for edit the data of particular list which passes id as parameter.
         // GET: Boozes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

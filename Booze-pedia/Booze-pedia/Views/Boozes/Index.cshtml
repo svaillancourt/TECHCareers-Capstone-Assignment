@@ -31,7 +31,8 @@
         </form>
     </div>
 </div>
-@*--This is a foreach method which list out data of Liuor in this page through BoozeController--*@
+
+@*--This is a foreach method which list out data of liquor in this page through BoozeController--*@
 @foreach (var item in Model.Boozes)
 {
     <div class="card mb-3">
@@ -63,7 +64,7 @@
                     <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
                 </div>
                 <div class="card-footer">
-                @*--<a asp-action="Edit" asp-route-id="@item.Id">Add to Cart</a>| --*@
+
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
