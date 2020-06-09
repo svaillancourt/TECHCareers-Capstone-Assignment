@@ -4,7 +4,11 @@
     ViewData["Title"] = "Home";
 }
 
-<h1>Booze-pedia</h1>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-3">Boozepedia</h1>
+    </div>
+</div>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -20,41 +24,40 @@
         <input type="submit" value="Filter" />
     </p>
 </form>
-<div class="row row-cols-1 row-cols-md-3">
-        @foreach (var item in Model.Boozes)
-        {
-            <div class="card mb-3" style="max-width: initial;">
-                <div class="card-img-top" alt="...">
-                    <img src="@("~/img/"+item.PictureName)" asp-append-version="true" width="150" height="150" />
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">
-                        @Html.DisplayNameFor(model => model.Boozes[0].Name)
-                    </h5>
-                    <p class="card-text">@Html.DisplayFor(modelItem => item.Name)</p>
-                    <h5 class="card-title">
-                        @Html.DisplayNameFor(model => model.Boozes[0].Category)
-                    </h5>
-                    <p class="card-text">@Html.DisplayFor(modelItem => item.Category)</p>
-                    <h5 class="card-title">
-                        @Html.DisplayNameFor(model => model.Boozes[0].Quantity)
-                    </h5>
-                    <p class="card-text">@Html.DisplayFor(modelItem => item.Quantity)</p>
-                    <h5 class="card-title">
-                        @Html.DisplayNameFor(model => model.Boozes[0].Quantity)
-                    </h5>
-                    <p class="card-text">@Html.DisplayFor(modelItem => item.Quantity)</p>
-                    <h5 class="card-title">
-                        @Html.DisplayNameFor(model => model.Boozes[0].Price)
-                    </h5>
-                    <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
-                </div>
-                <div class="card-footer">
-                    <a asp-action="Edit" asp-route-id="@item.Id">Add to Cart</a> |
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                </div>
-            </div>
-        }
-</div>
+
+@foreach (var item in Model.Boozes)
+{
+    <div class="card mb-3" style="max-width: initial;">
+        <div class="card-img-top" alt="...">
+            <img src="@("~/img/"+item.PictureName)" asp-append-version="true" width="150" height="150" />
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">
+                @Html.DisplayNameFor(model => model.Boozes[0].Name)
+            </h5>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.Name)</p>
+            <h5 class="card-title">
+                @Html.DisplayNameFor(model => model.Boozes[0].Category)
+            </h5>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.Category)</p>
+            <h5 class="card-title">
+                @Html.DisplayNameFor(model => model.Boozes[0].Quantity)
+            </h5>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.Quantity)</p>
+            <h5 class="card-title">
+                @Html.DisplayNameFor(model => model.Boozes[0].Quantity)
+            </h5>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.Quantity)</p>
+            <h5 class="card-title">
+                @Html.DisplayNameFor(model => model.Boozes[0].Price)
+            </h5>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
+        </div>
+        <div class="card-footer">
+            <a asp-action="Edit" asp-route-id="@item.Id">Add to Cart</a> |
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+        </div>
+    </div>
+}
