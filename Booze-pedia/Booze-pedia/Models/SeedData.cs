@@ -1,4 +1,5 @@
-﻿using Booze_pedia.Data;
+﻿//Seeddata class for initialize application when it is started.
+using Booze_pedia.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -22,6 +23,7 @@ namespace Booze_pedia.Models
                     return;   // DB has been seeded
                 }
 
+                //This is initial create data when application started.
                 context.Booze.AddRange(
                     new Booze
                     { 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Controller for listing the liquor list 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -28,7 +29,7 @@ namespace Booze_pedia.Controllers
         // GET: Boozes
         public async Task<IActionResult> Index(string boozeCategory, string searchString, bool inStockSearchString)
         {
-            // Use LINQ to get list of genres.
+            // Use LINQ to get list of Liquors by category
             IQueryable<string> categoryQuery = from m in _context.Booze
                                             orderby m.Category
                                             select m.Category;
@@ -36,12 +37,13 @@ namespace Booze_pedia.Controllers
             var boozes = from m in _context.Booze
                          select m;
 
-            //search by name and descriptoion
+            //search by name and descriptoion of liquor query
             if (!string.IsNullOrEmpty(searchString))
             {
                 boozes = boozes.Where(s => ((s.Name.Contains(searchString ) || (s.Description.Contains(searchString))) && (s.InStock == inStockSearchString)));
             }
             
+            //search by stock (true or false) of liquor query
             if(inStockSearchString == true)
             {
                 boozes = boozes.Where(i => i.InStock == inStockSearchString);
@@ -52,6 +54,7 @@ namespace Booze_pedia.Controllers
                 boozes = boozes.Where(x => ((x.Category == boozeCategory) ));
             }
 
+            //This logic devides liquor list by category and wait for asyc.
             var boozeCategoryVM = new BoozeCategoryViewModel
             {
                 Category = new SelectList(await categoryQuery.Distinct().ToListAsync()),
