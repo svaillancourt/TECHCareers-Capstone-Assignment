@@ -24,7 +24,7 @@
                     <option value="">All</option>
                 </select>
 
-                Title: <input type="text" asp-for="SearchString">
+                Search: <input type="text" asp-for="SearchString" placeholder="Name or Description">
                 In Stock: <input type="checkbox" asp-for="InStockSearchString">
                 <input class="btn btn-info" type="submit" value="Filter" />
             </p>
@@ -62,6 +62,10 @@
                         @Html.DisplayNameFor(model => model.Boozes[0].Price)
                     </h5>
                     <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
+                    <h5 class="card-title">
+                        @Html.DisplayNameFor(model => model.Boozes[0].InStock)
+                    </h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.InStock)</p>
                 </div>
                 <div class="card-footer">
 
