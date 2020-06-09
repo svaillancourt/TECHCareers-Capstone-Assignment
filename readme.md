@@ -56,7 +56,7 @@ Please following instructions listed in our [Instruction Manual Doc](https://doc
 
 * [Integrating SQL with .Net Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-3.1&tabs=visual-studio)
 
-* Identity: [Youtube](https://www.youtube.com/watch?v=CzRM-hOe35o) | [Microsoft Doc 1 ](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=visual-studio#pw) | [Microsoft Doc 1 ](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-2.2&tabs=visual-studio#scaffold-identity-into-an-mvc-project-without-existing-authorization) | [Stack Overflow](https://stackoverflow.com/questions/50179696/how-add-asp-net-core-identity-to-existing-core-mvc-project) 
+* Identity: [Youtube](https://www.youtube.com/watch?v=CzRM-hOe35o) | [Microsoft Doc 1 ](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=visual-studio#pw) | [Microsoft Doc 2 ](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-2.2&tabs=visual-studio#scaffold-identity-into-an-mvc-project-without-existing-authorization) | [Stack Overflow](https://stackoverflow.com/questions/50179696/how-add-asp-net-core-identity-to-existing-core-mvc-project) 
 
 * [HttpClient Class](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=netcore-3.1)
 
