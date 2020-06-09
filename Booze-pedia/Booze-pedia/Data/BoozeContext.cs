@@ -13,7 +13,7 @@ namespace Booze_pedia.Data
            : base(options)
         {
         }
-
+        // liquor context DB booze context which extends DBContext 
         public DbSet<Booze> Booze { get; set; }
     }
 }

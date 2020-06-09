@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj": {}
+    "C:\\Users\\soham\\Desktop\\project\\latest-version-project\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj": {
+    "C:\\Users\\soham\\Desktop\\project\\latest-version-project\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
+        "projectUniqueName": "C:\\Users\\soham\\Desktop\\project\\latest-version-project\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
         "projectName": "Booze-pedia",
-        "projectPath": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
-        "packagesPath": "C:\\Users\\Marvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\obj\\",
+        "projectPath": "C:\\Users\\soham\\Desktop\\project\\latest-version-project\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
+        "packagesPath": "C:\\Users\\soham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\soham\\Desktop\\project\\latest-version-project\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\soham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,12 +83,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -97,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
