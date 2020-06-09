@@ -100,7 +100,8 @@ namespace Booze_pedia.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Saves the images to wwwroot/img
+                // IActionResult methods code: http://www.codaffection.com/asp-net-core-article/asp-net-core-mvc-image-upload-and-retrieve/
+                // Saves the images to wwwroot/img.
                 string wwwRootPath = _hostEnvironment.WebRootPath;
                 string fileName = Path.GetFileNameWithoutExtension(booze.PictureFile.FileName);
                 string extension = Path.GetExtension(booze.PictureFile.FileName);
@@ -150,6 +151,7 @@ namespace Booze_pedia.Controllers
             {
                 try
                 {
+                    // Edit with new picture.
                     string wwwRootPath = _hostEnvironment.WebRootPath;
                     string fileName = Path.GetFileNameWithoutExtension(booze.PictureFile.FileName);
                     string extension = Path.GetExtension(booze.PictureFile.FileName);

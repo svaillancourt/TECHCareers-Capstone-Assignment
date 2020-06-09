@@ -30,7 +30,7 @@ namespace Booze_pedia
             services.AddDbContext<BoozeContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("BoozeContext")));
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
-            services.AddRazorPages();
+            services.AddRazorPages(); // Allows indentity to be used. 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +59,7 @@ namespace Booze_pedia
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Boozes}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                endpoints.MapRazorPages(); // Routes for identity.
             });
         }
     }
