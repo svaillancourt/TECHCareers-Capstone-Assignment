@@ -12,6 +12,11 @@ using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using Microsoft.AspNetCore.Authorization;
 
+/*
+ * Image Upload and Retrieval guide:
+ * http://www.codaffection.com/asp-net-core-article/asp-net-core-mvc-image-upload-and-retrieve/
+ */
+
 namespace Booze_pedia.Controllers
 {
     [Authorize]
@@ -38,7 +43,7 @@ namespace Booze_pedia.Controllers
             var boozes = from m in _context.Booze
                          select m;
 
-            //search by name and descriptoion of liquor query
+            //search by name and description of liquor query
             if (!string.IsNullOrEmpty(searchString))
             {
                 boozes = boozes.Where(s => ((s.Name.Contains(searchString ) || (s.Description.Contains(searchString))) && (s.InStock == inStockSearchString)));
