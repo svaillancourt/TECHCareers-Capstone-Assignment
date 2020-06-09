@@ -4,7 +4,7 @@
 @inject SignInManager<Booze_pediaUser> SignInManager
 @inject UserManager<Booze_pediaUser> UserManager
 
-<ul class="navbar-nav navbar-dark">
+<ul class="navbar nav sticky-top navbar-dark">
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
