@@ -155,6 +155,7 @@ namespace Booze_pedia.Controllers
                 return NotFound();
             }
 
+            // Checks modelState is valid or not.
             if (ModelState.IsValid)
             {
                 try
