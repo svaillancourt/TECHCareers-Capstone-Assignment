@@ -11,6 +11,10 @@ using Microsoft.Extensions.Hosting;
 using Booze_pedia.Data;
 using Microsoft.EntityFrameworkCore;
 
+/*
+ * Identity dependency injection
+ * https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-3.1
+ */
 
 namespace Booze_pedia
 {

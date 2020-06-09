@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Booze_pedia.Areas.Identity.Data
 {
-    // Add profile data for application users by adding properties to the Booze_pediaUser class
+    // Add profile data for application users by adding additional properties to the Booze_pediaUser class
     public class Booze_pediaUser : IdentityUser
     {
         [PersonalData]
