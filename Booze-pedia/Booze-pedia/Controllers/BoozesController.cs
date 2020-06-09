@@ -1,4 +1,4 @@
-﻿// Controller for listing the liquor list 
+﻿// Controller for listing the liquor list which contains Index, Create, Details, Edit, Delete methods.
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,13 +20,14 @@ namespace Booze_pedia.Controllers
         private readonly BoozeContext _context;
         private readonly IWebHostEnvironment _hostEnvironment;
 
+        //Constructor for class which host web environment and context
         public BoozesController(BoozeContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
             this._hostEnvironment = hostEnvironment;
         }
 
-        // GET: Boozes
+        // GET: Boozes This function is list out all liquor list in the application
         public async Task<IActionResult> Index(string boozeCategory, string searchString, bool inStockSearchString)
         {
             // Use LINQ to get list of Liquors by category
@@ -49,6 +50,7 @@ namespace Booze_pedia.Controllers
                 boozes = boozes.Where(i => i.InStock == inStockSearchString);
             }
 
+            // If Liquor Category is not null then it will filter the list.
             if (!string.IsNullOrEmpty(boozeCategory))
             {
                 boozes = boozes.Where(x => ((x.Category == boozeCategory) ));
@@ -61,6 +63,7 @@ namespace Booze_pedia.Controllers
                 Boozes = await boozes.ToListAsync()
             };
 
+            //return view of booze category which connect BoozeCategoryViewModel class
             return View(boozeCategoryVM);
         }
 
@@ -70,6 +73,7 @@ namespace Booze_pedia.Controllers
             return "From [HttpPost]Index: filter on " + searchString;
         }
 
+        // This is method for details of liquor part.
         // GET: Boozes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -88,6 +92,7 @@ namespace Booze_pedia.Controllers
             return View(booze);
         }
 
+        // This method is for creating the Liquor which return the whole view create.cshtml
         // GET: Boozes/Create
         public IActionResult Create()
         {
@@ -121,6 +126,7 @@ namespace Booze_pedia.Controllers
             return View(booze);
         }
 
+        // This method runs for edit the data of perticulart list which passes id as parameter.
         // GET: Boozes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -200,6 +206,8 @@ namespace Booze_pedia.Controllers
             return View(booze);
         }
 
+        // Here the method name is DeleteConfirmed which run "Delete Action". we have already delete method
+        // Due to preventing method overloading its a different name.
         // POST: Boozes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
