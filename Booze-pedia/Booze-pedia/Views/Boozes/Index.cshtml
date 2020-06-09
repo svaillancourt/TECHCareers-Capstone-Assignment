@@ -4,29 +4,20 @@
     ViewData["Title"] = "Home";
 }
 
-<style>
-    .container h1 {
-        text-align:center;
-        font-weight: 600;
-        text-shadow: 4px 4px 4px #000000;
-    }
-</style>
-
-<div class="jumbotron jumbotron-fluid" style=" background: url(/img/banner.jpg) no-repeat;
-        background-size: cover;">
-    <div class="container">
+<Section class="jumbotron jumbotron-fluid" style=" background: url(/img/banner.jpg) no-repeat; background-size: cover;">
+    <header class="container">
         <h1 class="display-3 text-light">BoozePedia</h1>
-    </div>
-</div>
+    </header>
+</Section>
 
 <div class="card text-center">
     <div class="card-body">
         <header>
-            <a class="btn btn-primary" asp-action="Create">Create New</a>
+            <a class="btn btn-lg btn-primary" asp-action="Create">Create New</a>
         </header>
 
     </div>
-    <div class="card-footer text-muted">
+    <div class="card-footer">
         <form asp-controller="Boozes" asp-action="Index" method="get">
             <p>
                 <select asp-for="BoozeCategory" asp-items="Model.Category">
@@ -81,3 +72,15 @@
         </div>
     </div>
 }
+
+@*--Style--*@
+<style>
+    * {
+        font-size: large;
+    }
+    .container h1 {
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 4px 4px 4px #000000;
+    }
+</style>
