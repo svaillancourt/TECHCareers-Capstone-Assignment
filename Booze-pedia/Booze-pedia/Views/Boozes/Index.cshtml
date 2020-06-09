@@ -4,6 +4,14 @@
     ViewData["Title"] = "Home";
 }
 
+<style>
+    .container h1 {
+        text-align:center;
+        font-weight: 600;
+        text-shadow: 4px 4px 4px #000000;
+    }
+</style>
+
 <div class="jumbotron jumbotron-fluid" style=" background: url(/img/banner.jpg) no-repeat;
         background-size: cover;">
     <div class="container">
@@ -38,7 +46,7 @@
     <div class="card mb-3">
         <div class="row">
             <div class="col-md-4">
-                <img src="@("~/img/"+item.PictureName)" asp-append-version="true" class="img-fluid" alt="..." />
+                <img src="@("~/img/"+item.PictureName)" asp-append-version="true" class="img-fluid" alt="Booze Banner" />
             </div>
             <div class="col-md-8">
                 <div class="card-body">
