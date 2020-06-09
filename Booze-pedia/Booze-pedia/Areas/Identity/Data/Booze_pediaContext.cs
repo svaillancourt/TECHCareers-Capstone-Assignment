@@ -7,6 +7,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
+/*
+ * Identity Implication:
+ * https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=visual-studio#pw
+ * https://www.youtube.com/watch?v=CzRM-hOe35o
+ */
+
 namespace Booze_pedia.Data
 {
     public class Booze_pediaContext : IdentityDbContext<Booze_pediaUser>
