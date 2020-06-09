@@ -11,25 +11,32 @@
     </div>
 </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<form asp-controller="Boozes" asp-action="Index" method="get">
-    <p>
-        <select asp-for="BoozeCategory" asp-items="Model.Category">
-            <option value="">All</option>
-        </select>
+<div class="card text-center">
+    <div class="card-body">
+        <header>
+            <a class="btn btn-primary" asp-action="Create">Create New</a>
+        </header>
 
-        Title: <input type="text" asp-for="SearchString">
-        InStock: <input type="checkbox" asp-for="InStockSearchString">
-        <input type="submit" value="Filter" />
-    </p>
-</form>
+    </div>
+    <div class="card-footer text-muted">
+        <form asp-controller="Boozes" asp-action="Index" method="get">
+            <p>
+                <select asp-for="BoozeCategory" asp-items="Model.Category">
+                    <option value="">All</option>
+                </select>
+
+                Title: <input type="text" asp-for="SearchString">
+                In Stock: <input type="checkbox" asp-for="InStockSearchString">
+                <input type="submit" value="Filter" />
+            </p>
+        </form>
+    </div>
+</div>
 
 @foreach (var item in Model.Boozes)
 {
     <div class="card mb-3">
-        <div class="row no-gutters">
+        <div class="row">
             <div class="col-md-4">
                 <img src="@("~/img/"+item.PictureName)" asp-append-version="true" class="img-fluid" alt="..." />
             </div>
