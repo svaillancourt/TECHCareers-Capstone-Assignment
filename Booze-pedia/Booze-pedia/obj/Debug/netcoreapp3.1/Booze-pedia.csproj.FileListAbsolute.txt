@@ -1063,3 +1063,4 @@ C:\Users\soham\Desktop\project\latest-version-project\TECHCareers-Capstone-Assig
 C:\Users\soham\Desktop\project\latest-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.dll
 C:\Users\soham\Desktop\project\latest-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.pdb
 C:\Users\soham\Desktop\project\latest-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.genruntimeconfig.cache
+C:\Users\soham\Desktop\project\latest-version-project\TECHCareers-Capstone-Assignment\Booze-pedia\Booze-pedia\obj\Debug\netcoreapp3.1\Booze-pedia.csprojAssemblyReference.cache
