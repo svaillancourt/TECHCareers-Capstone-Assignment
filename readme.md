@@ -96,10 +96,12 @@ Please following instructions listed in our [Instruction Manual Doc](https://doc
 
 #### User must enter a valid email and a password that aligns with our restrictions. 
 
+> #### Valid Username & Password
+
 - Username: john.doe@gmail.com 
 - Password: @SillyGuy1
 
-- Rejected User Information
+> #### Rejected Username & Password
 
 - Username: john.doe@asdaadasdasdasdsdas.live 
 - Password: thisismypassword
