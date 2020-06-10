@@ -9022,19 +9022,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marvin\\.nuget\\packages\\": {}
+    "C:\\Users\\Step Laptop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
+      "projectUniqueName": "C:\\Users\\Step Laptop\\Desktop\\TechCareers\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
       "projectName": "Booze-pedia",
-      "projectPath": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
-      "packagesPath": "C:\\Users\\Marvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marvin\\Desktop\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\obj\\",
+      "projectPath": "C:\\Users\\Step Laptop\\Desktop\\TechCareers\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\Booze-pedia.csproj",
+      "packagesPath": "C:\\Users\\Step Laptop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Step Laptop\\Desktop\\TechCareers\\TECHCareers-Capstone-Assignment\\Booze-pedia\\Booze-pedia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Marvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Step Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
